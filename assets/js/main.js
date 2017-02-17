@@ -75,7 +75,7 @@ $.fn.magnificinfinitescroll = function(options) {
             type: 'image',
             mainClass: 'ct-magnificPopup--image',
             removalDelay: 160,
-            preloader: true,
+            preloader: false,
 
             fixedContentPos: false,
             gallery:{
@@ -1083,3 +1083,32 @@ initmap();
     });
 
 }(jQuery));
+/*
+$(document).ready(function(){
+	$('.gallery').featherlightGallery();
+});*/
+
+
+function initMap() {
+    var address = 'Wilfried Springhorn, Kleiner Weg 10, 32289 Rödinghausen';
+
+    var map = new google.maps.Map(document.getElementById('map'), { 
+        mapTypeId: google.maps.MapTypeId.TERRAIN,
+        zoom: 17
+    });
+
+    var geocoder = new google.maps.Geocoder();
+
+    geocoder.geocode({
+        'address': address
+    }, 
+    function(results, status) {
+        if(status == google.maps.GeocoderStatus.OK) {
+            new google.maps.Marker({
+                position: results[0].geometry.location,
+                map: map
+            });
+            map.setCenter(results[0].geometry.location);
+        }
+    });
+}
