@@ -6531,6 +6531,7 @@ h6,
 .h6 {
   font-size: 1rem;
   margin-bottom: 0.276em;
+  font-weight: bold;
 }
 h6 small,
 .h6 small {
@@ -9672,6 +9673,10 @@ form [disabled] .checkbox input[type=radio] + label:before {
   -webkit-box-shadow: 0 1px 0 1px rgba(245, 239, 225, 0.4);
   -moz-box-shadow: 0 1px 0 1px rgba(245, 239, 225, 0.4);
   box-shadow: 0 1px 0 1px rgba(245, 239, 225, 0.4);
+-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    border: 1px solid rgba(0,0,0,0.2);
 }
 .ct-blog-container .ct-blog-item .ct-blog-item-outer .ct-blog-item-media {
   margin-bottom: 25px;
@@ -9856,6 +9861,8 @@ form [disabled] .checkbox input[type=radio] + label:before {
 }
 .ct-blog-container .ct-blog-item.ct-gallery-item--type2 .ct-blog-item-outer {
   margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .ct-blog-container .ct-blog-item.ct-gallery-item--type2 .ct-blog-item-outer .ct-blog-item-inner {
   padding: 0;
