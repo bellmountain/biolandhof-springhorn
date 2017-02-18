@@ -61,51 +61,32 @@
 
 <div class="ct-menuMobile">
     <ul class="ct-menuMobile-navbar list-unstyled ct-u-backgroundDarkGray">
-        <li><a href="index.html">Startseite</a></li>
+        <li><a href="index.html">Home</a></li>
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Hauptmenü <i class="fa fa-caret-down"></i></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Main Menu <i class="fa fa-caret-down"></i></a>
             <ul class="dropdown-menu" role="menu">
-                <li><a href="portrait.html">Portrait</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-                <li><a href="aktuelles.html">Aktuelles</a></li>
+                <li><a href="portrait.html">Portray</a></li>
+                <li><a href="kontakt.html">Contact</a></li>
+                
             </ul>
         </li>
 
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Freizeit <i class="fa fa-caret-down"></i></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Leisure-time <i class="fa fa-caret-down"></i></a>
             <ul class="dropdown-menu" role="menu">
-                <li><a href="gaestezimmer.html">Gästezimmer</a></li>
-                <li class="active"><a href="reiterwochenende.html">Reiterwochenende</a></li>
-                <li><a href="heuhotel.html">Heuhotel</a></li>
-                <li><a href="wanderreiten.html">Wanderreiten / Pferdehotel / Pferdehotel</a></li>
+                <li><a href="gaestezimmer.html">Bed and Breakfast</a></li>
+                <li class="active"><a href="reiterwochenende.html">Riding Weekend</a></li>
+                <li><a href="heuhotel.html">Hay-Hotel</a></li>
+                <li><a href="wanderreiten.html">Riding Tours / Horse Hotel</a></li>
             </ul>
         </li>
 
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sprachen<i class="fa fa-caret-down"></i></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages<i class="fa fa-caret-down"></i></a>
             <ul class="dropdown-menu" role="menu">
-                <li><a href="zertifikate.html">Zertifikate</a></li>
-                <li><a href="sms.html">SMS - Sprachen mit Springhorn</a></li>
-                <li><a href="pruefungsvorbereitung.html">Prüfungsvorbereitung</a></li>
-                <li><a href="perfektionsseminar.html">Perfektionsseminar</a></li>
-                <li><a href="voyage.html">Voyage en France</a></li>
-            </ul>
-        </li>
-
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Landwirtschaft<i class="fa fa-caret-down"></i></a>
-            <ul class="dropdown-menu" role="menu">
-                <li><a href="landw-zertifikate.html">Zertifikate</a></li>
-                <li><a href="pension.html">Pensionspferdestall</a></li>
-            </ul>
-        </li>
-
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Zeitungsartikel<i class="fa fa-caret-down"></i></a>
-            <ul class="dropdown-menu" role="menu">
-                <li><a href="freizeit.html">Freizeit</a></li>
-                <li><a href="sprachen.html">Sprachen</a></li>
-                <li><a href="landwirtschaft.html">Landwirtschaft</a></li>
+                
+                <li><a href="sms.html">LWS - Languages with Springhorn</a></li>
+                
             </ul>
         </li>
 
@@ -118,11 +99,11 @@
 <div class="ct-topBar topBar--type1">
     <div class="navbar navbar-default">
         <div class="container ct-navbar-container">
-            <p class="navbar-text navbar-left">Willkommen auf dem Biolandhof!</p>
-            <div id="language" class="navbar-text navbar-right"><img src="../assets/images/de.png" alt="Deutsch (DE-CH-AT)" title="Deutsch (DE-CH-AT)">
-                <select name="lang"  onchange="document.location.replace(this.value);">
-                    <option value="" selected="selected">Deutsch (DE-CH-AT)</option>
-                    <option value="en">English (United Kingdom)</option>
+            <p class="navbar-text navbar-left">Welcome on the Bio-Farm!</p>
+            <div id="language" class="navbar-text navbar-right"><img src="../assets/images/en.png" alt="English (United Kingdom)" title="English (United Kingdom)">
+                <select name="lang"  onchange="document.location.replace('/' + this.value);">
+                    <option value="">Deutsch (DE-CH-AT)</option>
+                    <option value="en" selected="selected">English (United Kingdom)</option>
                     <option value="fr">Français (Fr)</option>
                 </select>
             </div>
@@ -136,58 +117,40 @@
     <div class="container ct-navbar-container">
         <div class="navbar-header">
             <a class="navbar-brand" href="index.html">
-                <img class="navbar-brand-defaultColor" alt="Brand" src="../assets/images/content/logo.png" />
+                <img class="navbar-brand-defaultColor" alt="Brand" src="../assets/images/content/logo_en.png" />
             </a>
         </div>
 
         <ul class="nav navbar-nav navbar-left ct-navbar--fadeInLeft">
-            <li><a href="index.html">Startseite</a></li>
+            <li><a href="index.html">Home</a></li>
             <li class="dropdown">
-                <span>Hauptmenü</span>
+                <span>Main Menu</span>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="portrait.html">Portrait</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-                    <li><a href="aktuelles.html">Aktuelles</a></li>
+                    <li><a href="portrait.html">Portray</a></li>
+                    <li><a href="kontakt.html">Contact</a></li>
+                    
                 </ul>
             </li>
 
             <li class="dropdown active">
-                <span>Freizeit</span>
+                <span>Leisure-time</span>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="gaestezimmer.html">Gästezimmer</a></li>
-                    <li class="active"><a href="reiterwochenende.html">Reiterwochenende</a></li>
-                    <li><a href="heuhotel.html">Heuhotel</a></li>
-                    <li><a href="wanderreiten.html">Wanderreiten / Pferdehotel</a></li>
+                    <li><a href="gaestezimmer.html">Bed and Breakfast</a></li>
+                    <li class="active"><a href="reiterwochenende.html">Riding Weekend</a></li>
+                    <li><a href="heuhotel.html">Hay-Hotel</a></li>
+                    <li><a href="wanderreiten.html">Riding Tours / Horse Hotel</a></li>
                 </ul>
             </li>
 
             <li class="dropdown">
-                <span>Sprachen</span>
+                <span>Languages</span>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="zertifikate.html">Zertifikate</a></li>
-                    <li><a href="sms.html">SMS - Sprachen mit Springhorn</a></li>
-                    <li><a href="pruefungsvorbereitung.html">Prüfungsvorbereitung</a></li>
-                    <li><a href="perfektionsseminar.html">Perfektionsseminar</a></li>
-                    <li><a href="voyage.html">Voyage en France</a></li>
+                    
+                    <li><a href="sms.html">LWS - Languages with Springhorn</a></li>
+                    
                 </ul>
             </li>
 
-            <li class="dropdown">
-                <span>Landwirtschaft</span>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="landw-zertifikate.html">Zertifikate</a></li>
-                    <li><a href="pension.html">Pensionspferdestall</a></li>
-                </ul>
-            </li>
-
-            <li class="dropdown">
-                <span>Zeitungsartikel</span>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="freizeit.html">Freizeit</a></li>
-                    <li><a href="sprachen.html">Sprachen</a></li>
-                    <li><a href="landwirtschaft.html">Landwirtschaft</a></li>
-                </ul>
-            </li>
         </ul>
 
     </div>
@@ -200,7 +163,7 @@
     <div class="ct-breadcrumbs-container">
         <div class="ct-breadcrumbs ct-js-breadcrumbs" data-bg-image="../assets/images/content/kenburn.jpg" data-bg-scratchImage="../assets/images/scratch.png" data-height="260">
             <div class="ct-breadcrumbs-title">
-                Reiterwochenende
+                Riding Weekend
             </div>
         </div>
     </div>
@@ -213,78 +176,71 @@
 
 
         <div class="ct-infoBox ct-infoBox--type1">
-            <div class="ct-infoBox-media ct-infoBox-media--left">
-                <figure>
-                    <a href="../assets/images/flyer/reiterwochenende.jpg" class="ct-js-magnificPopupGroup"><img class="ct-infoBox-image--square" src="../assets/images/flyer/reiterwochenende.jpg"></a>
-                    <br>
-                    <a href="../assets/images/flyer/reiterwochenende_plan.jpg" class="ct-js-magnificPopupGroup">das Reiterwochenende im Detail</a>
-                </figure>
-            </div>
-
+           
             <div class="ct-infoBox-content">
                 <div class="ct-infoBox-title">
-                    <h3>Reiterwochenende</h3>
+                    <h3>Riding Weekend</h3>
                 </div>
                 <section class="ct-u-marginBottom40">
                     <div class="">
                         <table class="table table-striped">
                             <thead>
                             <tr>
-                                <th>Tag</th>
-                                <th>Uhrzeit</th>
-                                <th>Programm</th>
+                                <th>Day</th>
+                                <th>Time</th>
+                                <th>Program</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>Freitag</td>
+                                <td>Friday</td>
                                 <td>18:00</td>
-                                <td>Empfang und Abendessen</td>
+                                <td>Reception and dinner</td>
                             </tr>
                             <tr>
-                                <td>Freitag</td>
+                                <td>Friday</td>
                                 <td>19:00-21:00</td>
-                                <td>2 Std. Reitunterricht</td>
+                                <td>2 hours riding lessons</td>
                             </tr>
                             <tr>
-                                <td>übernachtung</td>
-                                <td></td>
-                                <td>Mit Frühstück</td>
+                                <td>Bed</td>
+                                <td>and</td>
+                                <td>Breakfast</td>
                             </tr>
                             <tr>
-                                <td>Samstag</td>
+                                <td>Saturday</td>
                                 <td>10:00-12:00</td>
-                                <td>2 Std. Reitunterricht</td>
+                                <td>2 hours riding lessons</td>
                             </tr>
                             <tr>
-                                <td>Samstag</td>
+                                <td>Saturday</td>
                                 <td>13:00</td>
-                                <td>Mittagessen</td>
+                                <td>Lunch</td>
                             </tr>
                             <tr>
-                                <td>Samstag</td>
+                                <td>Saturday</td>
                                 <td>15:00-17:00</td>
-                                <td>2 Std. Ausritt</td>
+                                <td>2 hours riding out</td>
                             </tr>
                             <tr>
-                                <td>Samstag</td>
+                                <td>Saturday</td>
                                 <td>19:00</td>
-                                <td>Abendessen</td>
+                                <td>Dinner</td>
                             </tr>
                             <tr>
-                                <td>Samstag</td>
+                                <td>Saturday</td>
                                 <td>Abend</td>
-                                <td>Spaß und Spiele</td>
+                                <td>Fun and games</td>
                             </tr>
                             <tr>
-                                <td>Übernachtung</td>
-                                <td></td>
-                                <td>Mit Frühstück</td>
+                                <td>Bed</td>
+                                <td>and</td>
+                                <td>Breakfast</td>
                             </tr>
                             <tr>
-                                <td>Sonntag</td>
+                                <td>Sunday</td>
                                 <td>10:00-12:00</td>
-                                <td>2 Std. Ausritt</td>
+                                <td>2 hours riding out</td>
                             </tr>
                             </tbody>
                         </table>
@@ -307,7 +263,7 @@
 
                 <div class="ct-u-displayTableCell text-right">
                     <ul class="list-unstyled list-inline ct-u-marginBoth0">
-                        <li><a href="kontakt.html">Kontakt</p>
+                        <li><a href="kontakt.html">Contact</p>
                         <li><a href="impressum.html">Impressum</p>
                     </ul>
                 </div>

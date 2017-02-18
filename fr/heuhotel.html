@@ -61,51 +61,34 @@
 
 <div class="ct-menuMobile">
     <ul class="ct-menuMobile-navbar list-unstyled ct-u-backgroundDarkGray">
-        <li><a href="index.html">Startseite</a></li>
+        <li><a href="index.html">Home</a></li>
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Hauptmenü <i class="fa fa-caret-down"></i></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menu principal <i class="fa fa-caret-down"></i></a>
             <ul class="dropdown-menu" role="menu">
                 <li><a href="portrait.html">Portrait</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-                <li><a href="aktuelles.html">Aktuelles</a></li>
+                <li><a href="kontakt.html">Contact</a></li>
+                
             </ul>
         </li>
 
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Freizeit <i class="fa fa-caret-down"></i></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Loisirs <i class="fa fa-caret-down"></i></a>
             <ul class="dropdown-menu" role="menu">
-                <li><a href="gaestezimmer.html">Gästezimmer</a></li>
-                <li><a href="reiterwochenende.html">Reiterwochenende</a></li>
-                <li class="active"><a href="heuhotel.html">Heuhotel</a></li>
-                <li><a href="wanderreiten.html">Wanderreiten / Pferdehotel</a></li>
+                <li><a href="gaestezimmer.html">Chambres d'hôtes</a></li>
+                <li><a href="reiterwochenende.html">Week-end d'équitation</a></li>
+                <li class="active"><a href="heuhotel.html">Hôtel de foin</a></li>
+                <li><a href="wanderreiten.html">Randonnées à cheval / Horse Hotel</a></li>
             </ul>
         </li>
 
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sprachen<i class="fa fa-caret-down"></i></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Langues<i class="fa fa-caret-down"></i></a>
             <ul class="dropdown-menu" role="menu">
-                <li><a href="zertifikate.html">Zertifikate</a></li>
-                <li><a href="sms.html">SMS - Sprachen mit Springhorn</a></li>
-                <li><a href="pruefungsvorbereitung.html">Prüfungsvorbereitung</a></li>
-                <li><a href="perfektionsseminar.html">Perfektionsseminar</a></li>
+                
+                <li><a href="sms.html">LAS - Langues avec Springhorn</a></li>
                 <li><a href="voyage.html">Voyage en France</a></li>
-            </ul>
-        </li>
-
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Landwirtschaft<i class="fa fa-caret-down"></i></a>
-            <ul class="dropdown-menu" role="menu">
-                <li><a href="landw-zertifikate.html">Zertifikate</a></li>
-                <li><a href="pension.html">Pensionspferdestall</a></li>
-            </ul>
-        </li>
-
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Zeitungsartikel<i class="fa fa-caret-down"></i></a>
-            <ul class="dropdown-menu" role="menu">
-                <li><a href="freizeit.html">Freizeit</a></li>
-                <li><a href="sprachen.html">Sprachen</a></li>
-                <li><a href="landwirtschaft.html">Landwirtschaft</a></li>
+                
+                
             </ul>
         </li>
 
@@ -118,12 +101,12 @@
 <div class="ct-topBar topBar--type1">
     <div class="navbar navbar-default">
         <div class="container ct-navbar-container">
-            <p class="navbar-text navbar-left">Willkommen auf dem Biolandhof!</p>
-            <div id="language" class="navbar-text navbar-right"><img src="../assets/images/de.png" alt="Deutsch (DE-CH-AT)" title="Deutsch (DE-CH-AT)">
-                <select name="lang"  onchange="document.location.replace(this.value);">
-                    <option value="" selected="selected">Deutsch (DE-CH-AT)</option>
+            <p class="navbar-text navbar-left">Soyez les bienvenues à la ferme bio!</p>
+            <div id="language" class="navbar-text navbar-right"><img src="../assets/images/fr.png" alt="Français (Fr)" title="Français (Fr)">
+                <select name="lang"  onchange="document.location.replace('/' + this.value);">
+                    <option value="">Deutsch (DE-CH-AT)</option>
                     <option value="en">English (United Kingdom)</option>
-                    <option value="fr">Français (Fr)</option>
+                    <option value="fr" selected="selected">Français (Fr)</option>
                 </select>
             </div>
 
@@ -136,58 +119,40 @@
     <div class="container ct-navbar-container">
         <div class="navbar-header">
             <a class="navbar-brand" href="index.html">
-                <img class="navbar-brand-defaultColor" alt="Brand" src="../assets/images/content/logo.png" />
+                <img class="navbar-brand-defaultColor" alt="Brand" src="../assets/images/content/logo_fr.png" />
             </a>
         </div>
 
         <ul class="nav navbar-nav navbar-left ct-navbar--fadeInLeft">
-            <li><a href="index.html">Startseite</a></li>
+            <li><a href="index.html">Home</a></li>
             <li class="dropdown">
-                <span>Hauptmenü</span>
+                <span>Menu principal</span>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="portrait.html">Portrait</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-                    <li><a href="aktuelles.html">Aktuelles</a></li>
+                    <li><a href="kontakt.html">Contact</a></li>
+                    
                 </ul>
             </li>
 
             <li class="dropdown active">
-                <span>Freizeit</span>
+                <span>Loisirs</span>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="gaestezimmer.html">Gästezimmer</a></li>
-                    <li><a href="reiterwochenende.html">Reiterwochenende</a></li>
-                    <li class="active"><a href="heuhotel.html">Heuhotel</a></li>
-                    <li><a href="wanderreiten.html">Wanderreiten / Pferdehotel</a></li>
+                    <li><a href="gaestezimmer.html">Chambres d'hôtes</a></li>
+                    <li><a href="reiterwochenende.html">Week-end d'équitation</a></li>
+                    <li class="active"><a href="heuhotel.html">Hôtel de foin</a></li>
+                    <li><a href="wanderreiten.html">Randonnées à cheval / Horse Hotel</a></li>
                 </ul>
             </li>
 
             <li class="dropdown">
-                <span>Sprachen</span>
+                <span>Langues</span>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="zertifikate.html">Zertifikate</a></li>
-                    <li><a href="sms.html">SMS - Sprachen mit Springhorn</a></li>
-                    <li><a href="pruefungsvorbereitung.html">Prüfungsvorbereitung</a></li>
-                    <li><a href="perfektionsseminar.html">Perfektionsseminar</a></li>
+                    
+                    <li><a href="sms.html">LAS - Langues avec Springhorn</a></li>
                     <li><a href="voyage.html">Voyage en France</a></li>
                 </ul>
             </li>
 
-            <li class="dropdown">
-                <span>Landwirtschaft</span>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="landw-zertifikate.html">Zertifikate</a></li>
-                    <li><a href="pension.html">Pensionspferdestall</a></li>
-                </ul>
-            </li>
-
-            <li class="dropdown">
-                <span>Zeitungsartikel</span>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="freizeit.html">Freizeit</a></li>
-                    <li><a href="sprachen.html">Sprachen</a></li>
-                    <li><a href="landwirtschaft.html">Landwirtschaft</a></li>
-                </ul>
-            </li>
         </ul>
 
     </div>
@@ -200,7 +165,7 @@
     <div class="ct-breadcrumbs-container">
         <div class="ct-breadcrumbs ct-js-breadcrumbs" data-bg-image="../assets/images/content/kenburn.jpg" data-bg-scratchImage="../assets/images/scratch.png" data-height="260">
             <div class="ct-breadcrumbs-title">
-                Heuhotel
+                Hôtel de foin
             </div>
         </div>
     </div>
@@ -215,24 +180,18 @@
         <div class="ct-infoBox ct-infoBox--type1">
             <div class="ct-infoBox-media ct-infoBox-media--left">
                 <figure>
-                    <a href="../assets/images/flyer/heuhotel.jpg" class="ct-js-magnificPopupImage"><img class="ct-infoBox-image--square" src="../assets/images/flyer/heuhotel.jpg"></a>
+                    <a href="../assets/images/flyer/heuhotel_fr.jpg" class="ct-js-magnificPopupImage"><img class="ct-infoBox-image--square" src="../assets/images/flyer/heuhotel_fr.jpg"></a>
                 </figure>
             </div>
 
             <div class="ct-infoBox-content">
                 <div class="ct-infoBox-title">
-                    <h3>Heuhotel</h3>
+                    <h3>Hôtel de foin</h3>
                 </div>
 
                 <div class="ct-infoBox-text">
                     <p>
-                        Gönnen Sie sich den Luxus, eine Nacht im duftenden Biolandheu zu verbringen, um danach eventuell einen Ausritt zu Pferd oder einen Spaziergang ins nahegelegene Wiehengebirge zu machen.
-                   </p>
-                    <p>
-                        Übernachtung: 15,- € pro Person 
-                   </p>
-                    <p>
-                        Übernachtung + Dusche: 20,- € pro Person
+                        Offrez-vous le luxe de passer une nuit dans du foin bio odoriférant pour faire le lendemain une randonnée à piet ou à cheval dans la montagne tout près.
                    </p>
                 </div>
             </div>
@@ -252,7 +211,7 @@
 
                 <div class="ct-u-displayTableCell text-right">
                     <ul class="list-unstyled list-inline ct-u-marginBoth0">
-                        <li><a href="kontakt.html">Kontakt</p>
+                        <li><a href="kontakt.html">Contact</p>
                         <li><a href="impressum.html">Impressum</p>
                     </ul>
                 </div>
